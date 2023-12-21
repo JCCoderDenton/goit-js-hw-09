@@ -45,7 +45,6 @@ startBtn.addEventListener('click', () => {
       hoursEl.textContent = '00';
       minutesEl.textContent = '00';
       secondsEl.textContent = '00';
-      startBtn.disabled = false;
     } else {
       const { days, hours, minutes, seconds } = convertMs(timeLeft);
       daysEl.textContent = addLeadingZero(days);
